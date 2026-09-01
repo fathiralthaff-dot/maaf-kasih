@@ -2,9 +2,9 @@ theme: jekyll-theme-primer
 title: Flowers for Alda
 description: A special collection
 
-# GitHub Pages will use the root as source since we don't have a docs folder
+# Build from root directory
 source: .
-destination: _site
+destination: ./_site
 
 # Exclude unnecessary files
 exclude:
@@ -12,3 +12,4 @@ exclude:
   - .gitignore
   - README.md
   - LICENSE
+  - flowers-for-someone-main
